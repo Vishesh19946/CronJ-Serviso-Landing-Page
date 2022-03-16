@@ -1,0 +1,228 @@
+footer{
+  font-family: Poppins-Regular-18px;
+}
+
+/* rectangle 1372 */
+.div-rect-1372{
+  width: 1440px;
+  height: 686px;
+  background: #F6F9FC 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 93.46px 131.06px 61.52px 148px;
+}
+
+.div-1372-container{
+  display: grid;
+  grid-template-rows: 3fr 2fr;
+}
+
+.div-container-top{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 1rem;
+}
+
+.div-col{
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(113, 128, 139,0.15);
+  padding-right: 2rem;
+}
+
+.div-sec-countries{
+  display: flex;
+  flex-direction: row;
+}
+
+.sec-india{
+  margin-top: 42.5px;
+}
+
+
+/* .div-col-4{
+  margin-left: 75.61px;
+}
+
+.div-col-3{
+  margin-left: 55.27px;
+}
+
+ */
+
+.div-col-2{
+  border-right: none;
+  padding-right: 0.1rem;
+}
+
+.div-col-5{
+  border-right: none;
+}
+
+.div-container-bottom{
+  display: flex;
+  flex-direction: column;
+  margin-top: 80.64px;
+}
+
+.div-connect-logos{
+  display: flex;
+  flex-direction: row;
+  margin-top: 26.34px;
+}
+
+/* elements */
+
+.img-logo-bottom{
+  width: 159px;
+  height: 69px;
+}
+
+.txt-bottom{
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  text-align: left;
+}
+
+.p-email-11154{
+  width: 159px;
+  height: 21px;
+  font-weight: 700;
+  margin-top: 20.91px;
+}
+
+.p-get-a-call{
+  width: 90px;
+  height: 21px;
+  font-weight: 700;
+  margin-top: 41.01px;
+}
+
+.p-hire-a-developer{
+  width: 149px;
+  height: 21px;
+  font-weight: 700;
+  margin-top: 29.34px;
+}
+
+.p-services{
+  width: 224px;
+  height: 31px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.p-webapp{
+  width: 208px;
+  height: 25px;
+  margin-top: 41.91px;
+}
+
+.p-mobapp{
+  width: 231px;
+  height: 25px;
+  margin-top: 26.34px;
+}
+
+.p-ui{
+  height: 24px;
+  width: 120px;
+  margin-top: 26.34px;
+}
+
+.p-react{
+  width: 239px;
+  height: 25px;
+  margin-top: 26.34px;
+}
+
+.p-node{
+  width: 239px;
+  height: 25px;
+  margin-top: 26.34px;
+}
+
+.p-react-native{
+  width: 250px;
+  height: 24px;
+  margin-top: 33.26px;
+}
+
+.p-android{
+  width: 239px;
+  height: 24px;
+  margin-top: 26.69px;
+}
+
+.p-ios{
+  width: 239px;
+  height: 24px;
+  margin-top: 25.99px;
+}
+
+.p-hybrid{
+  width: 239px;
+  height: 24px;
+  margin-top: 26.34px;
+}
+
+.p-company{
+  width: 90px;
+  height: 24px;
+  font-weight: 700;
+}
+
+.p-about{
+  margin-top: 44.26px;
+  font-weight: 700;
+}
+
+.p-portfolio{
+  font-weight: 700;
+}
+
+.p-blogs{
+  font-weight: 700;
+}
+
+.p-birbal{
+  font-weight: 700;
+}
+
+.p-locations{
+  width: 89px;
+  height: 24px;
+  font-weight: 700;
+}
+
+.p-countries{
+  font-weight: 700;
+}
+
+.img-country{
+  width: 25px;
+  height: 25px;
+  margin-top: 12px;
+  margin-right: 14.06px;
+}
+
+.h3-connect{
+  width: 231px;
+  height: 24px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.img-connect-logos{
+  width: 66px;
+  height: 66px;
+  /* box-shadow: 0px 3px 6px #00000029;
+  border-radius: 26px; */
+  opacity: 1;
+  margin: 5px;
+}
