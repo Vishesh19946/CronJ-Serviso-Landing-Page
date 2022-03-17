@@ -1,0 +1,127 @@
+.form-group{
+  width: 100%;
+  padding-top: 45px;
+}
+
+.form-group-checkbox{
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.form-group:first-child{
+  padding-top: 0px;
+}
+
+label{
+  display: block;
+  text-align: left;
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #0F0D0D;
+  opacity: 1;
+}
+
+.form-group input, #email{
+  width: 641px;
+  height: 57px;
+  border: 1px solid #4569B38C;
+  border-radius: 9px;
+  opacity: 1;
+  margin-top: 14.75px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  text-align: left;
+  color: #A39B9B;
+  letter-spacing: 0px;
+}
+
+#enquiry{
+  width: 641px;
+  height: 120px;
+}
+
+.chk-label{
+  text-align: left;
+}
+
+#design{
+  width: 65px;
+  height: 27px;
+  margin-left: 15.05px;
+}
+
+#web-app{
+  width: 220px;
+  height: 27px;
+  margin-left: 15.05px;
+}
+
+#migration{
+  width: 90px;
+  height: 27px;
+  margin-left: 15.05px;
+}
+
+#hire{
+  width: 157px;
+  height: 27px;
+  margin-left: 15.05px;
+}
+
+#mob-app{
+  width: 239px;
+  height: 27px;
+  margin-left: 15.05px;
+}
+
+.check-1, .check-2{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.check-1{
+  justify-content: space-between;
+}
+
+.check-2{
+  margin-top: 45px;
+}
+
+.check-group{
+  display: flex;
+  flex-direction: row;
+}
+
+.chk-primary{
+  height: 35px;
+  width: 35px;
+  background: #0F4DC2 0% 0% no-repeat padding-box;
+}
+
+button{
+  width: 100%;
+  margin-top: 26.25px;
+  height: 67px;
+  align-items: center;
+  font-family: Poppins-Medium;
+  font-size: 18px;
+  background: #0F4DC2 0% 0% no-repeat padding-box;
+  border: 1px solid #4569B38C;
+  border-radius: 9px;
+  opacity: 1;
+  color: #FFFFFF;
+  letter-spacing: 0px;
+}

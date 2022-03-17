@@ -1,0 +1,145 @@
+.hero{
+  background: url('../img/Group\ 11321.png') no-repeat;
+  position: relative;
+  width: 1440px;
+  height: 713px;
+  /* transform: matrix(-1, 0, 0, -1, 0, 0); */
+  opacity: 0.84;
+}
+
+.hero .header-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.img-logo{
+  width: 135px;
+  height: 53px;
+  margin-top: 52px;
+}
+
+.navbar{
+  margin-left: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+}
+
+.navbar.scrolled {
+  background-color: rgb(0, 0, 0,0.2) !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar ul{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 65px;
+  margin-left: 157.23px;
+}
+
+.navbar a{
+  color: #fff;
+  font-size: 17px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-family: Poppins-Medium-17px;
+}
+
+.btn-primary{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 56.28px;
+  margin-left: 182px;
+  width: 142px;
+  height: 41px;
+  background: #0670F4 0% 0% no-repeat padding-box;
+  border-radius: 9px;
+  opacity: 1;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  font-family: Poppins-Medium-13px;
+}
+
+.icon-arrow{
+  width: 17px;
+  height: 8px;
+}
+
+/* elements */
+.main-text{
+  width: 502px;
+  height: 109px;
+  text-align: center;
+  letter-spacing: NaNpx;
+  color: #FFFFFF;
+  opacity: 1;
+  font-family: Poppins-Bold-49px;
+}
+
+.main-text-half{
+  font-family: Poppins-Bold-36px;
+  letter-spacing: NaNpx;
+  color: #FFFFFF;
+  opacity: 1;
+  text-align: center;
+}
+
+.p-main-text-below{
+  width: 887px;
+  height: 57px;
+  text-align: center;
+  font-family: Poppins-Regular-19px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.below-main-text-rect-990{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 308px;
+  height: 39px;
+  border: 1px solid #FFFFFF;
+  border-radius: 36px;
+  opacity: 1;
+}
+
+.p-auto-mainteneance{
+  width: 228px;
+  height: 19px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-family: Poppins-Regular-13px;
+  font-size: 12px;
+}
+
+.img-building{
+  width: 22px;
+  height: 22px;
+}
+
+.img-mock-up-1{
+  width: 1188px;
+  height: 295px;
+  top: 490px;
+  left: 136px;
+  box-shadow: 0px 3px 66px #00000029;
+  opacity: 1;
+  z-index: 1;
+  position: absolute;
+}

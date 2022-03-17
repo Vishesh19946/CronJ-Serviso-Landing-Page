@@ -1,4 +1,24 @@
 @font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
   font-family: Poppins-Bold-49px;
   src: url('../fonts/Poppins-Bold.ttf');
   font-size: 49px;
@@ -97,10 +117,8 @@
 }
 
 @font-face {
-  font-family: Gilroy-SemiBold-25px;
+  font-family: Gilroy-SemiBold;
   src: url('../fonts/Gilroy-SemiBold.ttf');
-  font-size: 25px;
-  color: #fff;
 }
 
 @font-face {
