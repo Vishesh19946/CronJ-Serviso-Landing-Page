@@ -15,27 +15,34 @@
   text-align: center;
   height: 100%;
   position: relative;
+  z-index: 0;
 }
 
 .img-logo{
   width: 135px;
   height: 53px;
   margin-top: 52px;
+  margin-left: 150px;
 }
 
 .navbar{
-  margin-left: 150px;
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%;
   position: fixed;
+  z-index: 9999;
 }
 
-.navbar.scrolled {
-  background-color: rgb(0, 0, 0,0.2) !important;
-  transition: background-color 200ms linear;
+/* navbar color */
+
+.scrolling-active{
+  background-color: #000000;
+  box-shadow: 0 3px 1rem;
+  z-index: 9999;
 }
+
+/* navbar color */
 
 .navbar ul{
   display: flex;

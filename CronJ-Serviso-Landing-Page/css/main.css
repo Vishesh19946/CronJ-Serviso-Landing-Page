@@ -388,6 +388,7 @@
   flex-direction: column;
   margin-left: 182px;
   margin-top: 55.79;
+  z-index: 0;
 }
 
 .img-check{
@@ -427,6 +428,7 @@
   opacity: 1;
   position: relative;
   margin-top: 710.23px;
+  z-index: 0;
 }
 
 .div-sec-rect-1014{

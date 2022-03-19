@@ -17,7 +17,7 @@
 <body>
   <div class="container">
     <header class="hero">
-      <div class="navbar">
+      <div class="navbar" id="mynav">
         <img src="./img/Group 10330.png" alt="img-logo" class="img-logo">
         <nav>
           <ul>
@@ -370,5 +370,11 @@
       </div>
     </footer>
   </div>
+  <script>
+    window.addEventListener('scroll', function(){
+      let header = document.getElementById('mynav');
+      header.classList.toggle('scrolling-active', window.scrollY > 0);
+    })
+  </script>
 </body>
 </html>
